@@ -8,9 +8,9 @@ This folder contains raw data collected during LoRa communication testing for th
 
 This file contains 72 packets (packet IDs 5385–5456, corresponding to packets 8 through 79 of an expected 600) captured from a single PlatformIO serial monitor session during Test Position 1 (same room, line-of-sight). It does not cover the full 30-minute / ~585-packet test window for this position, and does not include data for the other four test positions.
 
-The complete summary results for all five test positions — packet delivery rate, RSSI, SNR, and link margin — are reported in the thesis, Chapter VI, Tables 6.6 through 6.9. Those summary figures were read directly from the receiver firmware's automated Test Mode result screen at the end of each 30-minute window, rather than reconstructed from this raw log file.
+The complete summary results for all five test positions — packet delivery rate, RSSI, SNR, and link margin — are reported in the thesis. Those summary figures were read directly from the receiver firmware's automated Test Mode result screen at the end of each 30-minute window, rather than reconstructed from this raw log file.
 
-This CSV is included to give a transparent, real example of the raw per-packet data format produced by the system (timestamp, packet ID, RSSI, SNR, and the corresponding sensor readings), consistent with the representative excerpt shown in Table 6.8 of the thesis. It should not be used to recalculate or verify the final reported success rates, since it does not contain a complete test window.
+This CSV is included to give a transparent, real example of the raw per-packet data format produced by the system (timestamp, packet ID, RSSI, SNR, and the corresponding sensor readings).
 
 ## Columns
 
