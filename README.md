@@ -1,9 +1,5 @@
 # Combustion Gas and Indoor Air Quality Monitoring System (STM32 + LoRa)
 
-Undergraduate thesis project — Electronics and Instrumentation Study Program, Department of Computer Science and Electronics, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada.
-
-**Author:** Faiz Pramudityo Agunda
-
 This repository contains the firmware, hardware design files, and supporting test data for a two-node wireless system that monitors carbon monoxide, CO₂-equivalent air quality, temperature, and humidity in a residential indoor environment, using LoRa for wireless transmission and Ubidots for remote cloud monitoring.
 
 ## System overview
@@ -19,8 +15,6 @@ Full system design, methodology, and results are documented in the accompanying 
 transmitter_STM32/      PlatformIO project for the STM32 transmitter firmware
 receiver_ESP32/          PlatformIO project for the ESP32 receiver firmware
 test-data/               Raw and processed LoRa communication test data
-hardware/                Schematics, PCB layouts, assembled photos, and component list
-scripts/                 Utility scripts (e.g. serial log to CSV converter)
 ```
 
 ## Important note on sensor accuracy
@@ -44,10 +38,3 @@ Both projects are built with [PlatformIO](https://platformio.org/). Open either 
 
 See `test-data/README.md` for details on what raw data is included and how it relates to the results reported in the thesis. Complete summary results for all five LoRa test positions are reported in the thesis (Chapter VI, Tables 6.6–6.9); the raw data included here is a partial representative excerpt, not a complete dataset — this is stated explicitly to avoid any impression that this repository contains more raw data than was actually retained during testing.
 
-## Hardware
-
-See `hardware/` for schematic exports, PCB layouts, assembled board photos, and a component list, corresponding to Chapter V of the thesis.
-
-## License
-
-This repository is provided as supporting material for an academic thesis. Feel free to reference or adapt the firmware for non-commercial educational purposes.
